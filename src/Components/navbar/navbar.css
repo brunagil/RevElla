@@ -2,12 +2,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 60px;
+    min-height: 70px;
     padding: 0 1rem;
     background: #ffffff;
-    border-bottom: 2px solid #d4dadf;
-    box-shadow: 0 2px 2px 0 #f0f1f4;
+    border-bottom: 2px solid silver;
+    box-shadow: 0 1px 1px 0 #ffff;
     background-color: #ABC8C0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
 }
 
 .navbar__logo {

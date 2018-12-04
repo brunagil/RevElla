@@ -1,24 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
+import Complaint from './Pages/Complaint'
+import Home from './Pages/Home'
+import Navbar from './Components/navbar'
+import Footer from './Components/footer'
+// {/* <Footer /> */}
+// {/* </React.Fragment> */}
+// // <React.Fragment>
+//   {/* <Navbar /> */}
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Aqui vou dar render e tudo o que tiver na página
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <Home />
     );
   }
 }

@@ -11,7 +11,6 @@ const Navbar = (props) => (
             alt = 'logo do projeto RevElla, de fundo de cor azul e letras brancas'
         />
         <Menu {...props} />
-    
     </nav>
 )
 

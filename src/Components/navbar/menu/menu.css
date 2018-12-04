@@ -1,6 +1,5 @@
 .menu__list {
     display: flex;
-    font-family: monospace;
     font-size: 18px;
     text-decoration: none;
     list-style: none;

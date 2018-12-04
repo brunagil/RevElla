@@ -1,0 +1,31 @@
+.footer {
+    text-decoration: none;
+    list-style: none;
+    background-color: #161616;
+    margin-top: 80px;
+    text-align: center;
+    padding: 40px;
+    color: rgba(255,255,255,.5);
+  }
+  
+  .footer__socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .footer__twitter,
+  .footer__facebook,
+  .footer__youtube {
+    opacity: 0.5;
+    margin: 0 10px;
+  }
+  
+  .footer__twitter:hover,
+  .footer__facebook:hover,
+  .footer__youtube:hover {
+    opacity: 1;
+  }
