@@ -1,25 +1,24 @@
 import React from 'react'
 import './menu.css'
-import { slide as Menu } from 'react-burger-menu'
+// import { slide as Menu } from 'react-burger-menu'
 
-class Example extends React.Component {
-  showSettings (event) {
-    event.preventDefault();
-  }
+// class Example extends React.Component {
+//   showSettings (event) {
+//     event.preventDefault();
+//   }
 
-
-  render () {
-    return (
-      <Menu>
-        <a id="home" className="menu-item" href="/">Home</a>
-        <a id="about" className="menu-item" href="/about">About</a>
-        <a id="contact" className="menu-item" href="/contact">Contact</a>
-        <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-      </Menu>
-    );
-  }
-}
-
+//   render () {
+//     return (
+//       <Menu>
+//         <a id="howItWorks" className="menu__list-item" href="/">Como funciona</a>
+//         <a id="data" className="menu__list-item" href="/about">Dados</a>
+//         <a id="contributions" className="menu__list-item" href="/contact">Depoimentos</a>
+//         <a id="contributions" className="menu__list-item" href="/contact">Denuncie</a>
+//         <a onClick={ this.showSettings } className="menu__list-item" href="">Menu</a>
+//       </Menu>
+//     );
+//   }
+// }
 
 const Menu = (props) => (
     <div>
