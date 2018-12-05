@@ -1,13 +1,12 @@
 .menu__list {
     display: flex;
-    font-size: 18px;
     text-decoration: none;
     list-style: none;
 }
 
 .menu__list-item {
     text-transform: uppercase;
-    color: white;
+    color: #96858F;
     padding: 1rem 1rem;
     margin: 0 auto;
 }

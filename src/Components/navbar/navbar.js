@@ -1,6 +1,6 @@
 import React from 'react' 
 import Menu from './menu'
-import logo from './img-navbar/logo-revella.png'
+import logo from '../../Images/logo-revella1.png'
 import './navbar.css'
 
 const Navbar = (props) => (

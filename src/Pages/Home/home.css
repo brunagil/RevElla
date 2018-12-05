@@ -1,39 +1,44 @@
 .header__banner {
-  background: url("../../Images/banner-5.jpg");
+  background: url("../../Images/banner-2.jpg");
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 79%, 0 100%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 75%, 0 100%, 0 0);
+  min-height: 90vh;
+  height: 660px;
   background-size: cover;
-  height: 600px;
-  background-position: center;
+  background-position: center 30%;
   background-repeat: no-repeat;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header__banner-title {
   font-family: 'Lato';
+  font-size: 50px;
   color: rgba(255, 255, 255, .9);
-  margin: 0 auto;
+  margin: 10px 150px;
   text-transform: uppercase;
   font-weight: 100;
-  padding-top: 100px;
-  letter-spacing: 8px;
   }
   
   @media (max-width: 1024px) {
     .header__banner-title {
-      font-size: 50px;
+      font-size: 45px;
     }
   }
   
   @media (max-width: 850px) {
     .header__banner-title {
-      font-size: 20px;
+      font-size: 30px;
     }
   }
   
   .header__banner-subtitle {
-    color: rgba(255, 255, 255, .7);
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 28px;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 10px 150px;
   }
   
   @media (max-width: 850px) {
