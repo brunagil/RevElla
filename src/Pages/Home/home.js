@@ -2,11 +2,10 @@ import React from 'react'
 import Navbar from '../../Components/navbar'
 import Container from '../../Components/container'
 import Footer from '../../Components/footer'
-// import print_1 from '../../Images'
-// import print_2 from '../../Images'
+import DemoCarousel from '../../Components/carousel'
 import './home.css'
 
-const Home = (props) => (
+const Home = () => (
     <React.Fragment>
     <Navbar />
         <header className = "header">
@@ -26,11 +25,11 @@ const Home = (props) => (
             </div>
         </header>
 
-    <Container>
         <section className = "about-the-project">
             <div className = "section-box__title">
                 <h2 className = "section__title">Como isso funciona?</h2>
             </div>
+
             <div className = "about__info">
                 <div className="info__img">
                     <img 
@@ -60,7 +59,6 @@ const Home = (props) => (
                         class="info__img-print" 
                         />
                 </div>
-
             </div>
         </section>
 
@@ -85,8 +83,7 @@ const Home = (props) => (
                 </div>
             </div>
         </section>
-    </Container>
-
+    <DemoCarousel/>
     <Footer />
 </React.Fragment>
 
