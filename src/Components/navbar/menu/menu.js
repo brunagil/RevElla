@@ -19,7 +19,7 @@ const Menu = () => (
                 className = "menu__list-item" >Testemunhas</Link>
           </li>
           <li>
-            <Link smooth to='/denuncia'
+            <Link smooth to='/form'
                 className = "menu__list-item" >Denuncie</Link>
           </li>
         </ul>

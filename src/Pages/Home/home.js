@@ -4,7 +4,7 @@ import Container from '../../Components/container'
 import Footer from '../../Components/footer'
 import Button from '../../Components/button'
 import DemoCarousel from '../../Components/carousel'
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+
 import './home.css'
 
 const Home = () => (

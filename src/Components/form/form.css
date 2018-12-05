@@ -2,8 +2,12 @@
     font-family: 'Lato';
 }
 .form-part1__title {
+    margin: 2rem;
+    text-align: center;
     color: #80A368;
 }
 .form-part1__text{
     font-size: 16px;
+    margin: 2rem;
+    text-align: center;
 }

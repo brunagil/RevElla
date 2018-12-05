@@ -17,7 +17,7 @@ class App extends Component {
       <React.Fragment> 
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route path='/denuncia' component= {Complaint}/>}/> 
+          <Route path='/form' component= {Complaint}/>}/> 
           <Footer />
         </Switch>
       </React.Fragment>

@@ -1,0 +1,12 @@
+.select {
+    font-family: 'Lato';
+    border-radius: 5px;
+    border-color: black;
+    padding: 5px 100px;
+}
+
+.select:focus {
+    outline: none;
+    border-color: #00A2BA;
+    box-shadow: 0 0 10px black;
+}

@@ -9,3 +9,31 @@
     border: 1px solid #00606E;
     border-radius: 5px;
 }
+
+.btn__form_next  {
+    margin: 0 auto;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    background-color: #9099A2;
+}
+
+.btn__form_back {
+    margin: 0 auto;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid white;
+    background-color: #80A368;
+
+}
+
+.btn__form-boxes {
+    display: flex;
+
+}
