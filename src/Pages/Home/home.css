@@ -1,7 +1,6 @@
 .header__banner {
   background: url("../../Images/banner-2.jpg");
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 79%, 0 100%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 75%, 0 100%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 80%, 0 100%, 0 0);
   min-height: 90vh;
   height: 660px;
   background-size: cover;
@@ -46,6 +45,11 @@
       font-size: 18px;
     }
   }
+
+.header__button {
+  display: flex;
+}
+
 
 .section__title {
   text-align: center;

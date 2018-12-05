@@ -2,7 +2,9 @@ import React from 'react'
 import Navbar from '../../Components/navbar'
 import Container from '../../Components/container'
 import Footer from '../../Components/footer'
+import Button from '../../Components/button'
 import DemoCarousel from '../../Components/carousel'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import './home.css'
 
 const Home = () => (
@@ -16,18 +18,17 @@ const Home = () => (
                 <h2 className = "header__banner-subtitle">
                     Exponha anonimamente situações de assédios, machismo e insegurança no seu ambiente de trabalho            
                 </h2>
-            <div className = "header__button">
-                <a 
-                    className = "header__button-cta btn"
-                    href=""
-                > Faça uma denúncia</a>
-            </div>
+                <div className = "header__button">
+                <Button 
+                    className = "btn header__button-cta"> Faça uma denúncia 
+                </Button>
+                </div>
             </div>
         </header>
 
         <section className = "about-the-project">
             <div className = "section-box__title">
-                <h2 className = "section__title">Como isso funciona?</h2>
+                <h2 className = "section__title" id="howItWorks">Como isso funciona?</h2>
             </div>
 
             <div className = "about__info">
@@ -63,7 +64,7 @@ const Home = () => (
         </section>
 
         <section className = "about-data">
-            <div className = "section-box__title">
+            <div className = "section-box__title" id="dataAbout">
                 <h2 className = "section__title">Por que precisamos expor essa realidade?</h2>
             </div>
             <div className = "about__data-boxes">
@@ -83,7 +84,13 @@ const Home = () => (
                 </div>
             </div>
         </section>
+    
+    <section className = "carousel-testemonies">
+        <div className = "section-box__title" id="testemonies">
+            <h2 className = "section__title">Vozes que não se calaram</h2>
+        </div>
     <DemoCarousel/>
+    </section>
     <Footer />
 </React.Fragment>
 

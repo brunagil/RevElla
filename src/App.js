@@ -4,6 +4,8 @@ import Complaint from './Pages/Complaint'
 import Home from './Pages/Home'
 import Navbar from './Components/navbar'
 import Footer from './Components/footer'
+import { withRouter } from 'react-router'
+import { Route, Switch } from 'react-router-dom'
 // {/* <Footer /> */}
 // {/* </React.Fragment> */}
 // // <React.Fragment>
@@ -12,9 +14,16 @@ import Footer from './Components/footer'
 class App extends Component {
   render() {
     return (
-        <Home />
+      <React.Fragment> 
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/denuncia' component= {Complaint}/>}/> 
+          <Footer />
+        </Switch>
+      </React.Fragment>
+
     );
   }
 }
 
-export default App;
+export default withRouter(App);
