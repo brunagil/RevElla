@@ -24,23 +24,23 @@ class Input extends Component {
 
     handleChange = (e) => { 
         this.value = e.target.value
-        let message = ''
+        let message = '';
+        const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
         
         if(this.props.required && this.value.trim() === '') { 
             message = 'Campo Obrigatório' 
-        } else if(this.value && this.props.minLength && this.value.length < (this.props.minLength)) {
-            message = `Digite pelo menos ${this.props.minLength} caracteres`
+        } else if(this.props.type ==='email' && !regex.test(this.value)) { 
+            message = 'Digite um e-mail válido' 
+
+        this.setState({ message : message }, this.props.onChange);
         }
-
-        this.setState({ message : message }, this.props.onChange) 
-
-
     }
+
 
     render() {
         return ( 
             <React.Fragment> 
-                <input 
+                <input
                     onChange={this.handleChange}
                     onBlur={this.handleChange}                  
                     type={this.props.type}  

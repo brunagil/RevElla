@@ -9,7 +9,7 @@ import './form.css'
 
 function Form(props) {
     return (
-        <form className='form' onSubmit={props.onSubmit}>
+        <form className='form' onSubmit={props.onSubmit} {...props}>
             <h2 className='form-part1__title'>{props.title}</h2>
             <p className='form-part1__text'>{props.text}</p>
                 {props.children}

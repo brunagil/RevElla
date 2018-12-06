@@ -1,3 +1,17 @@
+/* css var colors */
+
+:root{
+--navbar:black;
+--navbar-menu-items:black;
+--footer-grey: #3C3C3B;
+--font-grey: #575756;
+--background-grey:#F6F6F6;
+--partners-yellow: #FDD326;
+--primary-green: #60AB3E;
+--brigade-red: #BD1819;
+}
+
+
 body {
   margin: 0;
   padding: 0;
