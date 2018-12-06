@@ -8,8 +8,8 @@ class DemoCarousel extends Component {
         return (
             <Carousel showThumbs={false}>
                 <div>
-                    <img src="assets/1.jpeg" />
-                    <p className="legend">Legend 1</p>
+                    <img src='depoimento1' />
+                    <p className="legend">SOPJOSJFOSDJFPSDJFPOJDSOPFOJP</p>
                 </div>
                 <div>
                     <img src="assets/2.jpeg" />

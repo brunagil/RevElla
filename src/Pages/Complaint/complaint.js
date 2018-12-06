@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Form from '../../Components/form'
-import { Redirect } from 'react-router'
 import './complaint.css'
 
 class Complaint extends Component {
@@ -55,11 +54,8 @@ class Complaint extends Component {
 
         if(this.state.form1.valid && this.state.form2.valid && formFinalValid) {
             alert ('Obrigada por compartilhar essa experiência com a gente!')
-             if (this.setState.redirectToNewPage) {
-                return (
-                <Redirect to="/"/>  
-            )           
-        }
+            this.props.history.push('/')
+        
     }
 }
 

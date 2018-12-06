@@ -4,26 +4,27 @@ import Container from '../../Components/container'
 import Footer from '../../Components/footer'
 import Button from '../../Components/button'
 import DemoCarousel from '../../Components/carousel'
-
 import './home.css'
 
 const Home = () => (
     <React.Fragment>
     <Navbar />
-        <header className = "header">
+        <header>
             <div className = "header__banner">
-                <h1 className = "header__banner-title"> 
-                    Você se sente segura no seu ambiente de trabalho?
-                </h1>
-                <h2 className = "header__banner-subtitle">
-                    Exponha anonimamente situações de assédios, machismo e insegurança no seu ambiente de trabalho            
-                </h2>
-                <div className = "header__button">
-                <Button 
-                    className = "btn btn__home_cta"> Faça uma denúncia 
-                </Button>
+                <div className = "header__banner-text">
+                    <h1 className = "header__banner-title"> 
+                        Você se sente respeitada no seu trabalho?
+                    </h1>
+                    <h2 className = "header__banner-subtitle">
+                        Exponha anonimamente situações de assédios, machismo e abusos no seu ambiente de trabalho            
+                    </h2>
                 </div>
             </div>
+                <div className = "header__button">
+                <a href='/form'
+                    className = "btn btn__home_cta"> Faça uma denúncia 
+                </a>
+                </div>
         </header>
 
         <section className = "about-the-project">
@@ -34,7 +35,6 @@ const Home = () => (
             <div className = "about__info">
                 <div className="info__img">
                     <img 
-                        // src={print_1} 
                         alt="Foto de uma tela do formulário, onde as mulheres podem expor questões de assédio e machismo no trabalho" 
                         className="info__img-print" 
                         />
@@ -55,7 +55,6 @@ const Home = () => (
 
                 <div class="info__img">
                     <img 
-                        // src={print_2} 
                         alt="Foto de outro print do form que eu ainda não fiz AAAAAAAAAAAA" 
                         class="info__img-print" 
                         />
