@@ -14,11 +14,11 @@ class Select extends React.Component {
     }
   
     render() {
-      const lista = this.props.lista;
+      const listOfOptions = this.props.listOfOptions;
       return (
             <select className={this.props.className} onChange={this.handleChange}>
               {
-                lista.map(item => (
+                listOfOptions.map(item => (
                   <option key={item.id} value={item.text}>
                       {item.text}
                   </option>

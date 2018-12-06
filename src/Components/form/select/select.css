@@ -1,8 +1,11 @@
 .select {
     font-family: 'Lato';
+    font-size: 15px;    
     border-radius: 5px;
     border-color: black;
-    padding: 5px 100px;
+    padding: 5px 10px;
+    padding: 0.8rem;
+    margin: 0 0 1rem;
 }
 
 .select:focus {

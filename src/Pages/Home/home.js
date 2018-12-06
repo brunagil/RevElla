@@ -20,7 +20,7 @@ const Home = () => (
                 </h2>
                 <div className = "header__button">
                 <Button 
-                    className = "btn header__button-cta"> Faça uma denúncia 
+                    className = "btn btn__home_cta"> Faça uma denúncia 
                 </Button>
                 </div>
             </div>

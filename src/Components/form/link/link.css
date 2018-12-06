@@ -1,7 +1,11 @@
 .link {
     cursor: pointer;
-    color: #9351b4;
+    color: #96858F;
     text-align: center;
     text-decoration: underline;
     display: block;
+}
+
+.link__form-color {
+
 }

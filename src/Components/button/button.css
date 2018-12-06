@@ -5,35 +5,34 @@
     font-weight: bold;
     padding: 0.8rem;
     margin-bottom: 1rem;
+    border-radius: 5px;
+    border-color: #96858F
+
+}
+
+.btn__home_cta, .btn__form_back {
     background: #00606E;
     border: 1px solid #00606E;
-    border-radius: 5px;
+    border-color: #00606E;
+    margin-bottom: 0rem;
 }
 
 .btn__form_next  {
-    margin: 0 auto;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
-    border: 1px solid white;
-    background-color: #9099A2;
+    border: 1px solid #96858F;
+    background-color: #96858F;
+    margin-bottom: 0rem;
 }
 
-.btn__form_back {
-    margin: 0 auto;
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-    padding: 0.8rem;
-    margin-bottom: 1rem;
+
+.btn__form_submit {
     border: 1px solid white;
     background-color: #80A368;
+    margin-bottom: 0rem;
 
 }
 
 .btn__form-boxes {
     display: flex;
+    align-items: center;
 
 }
