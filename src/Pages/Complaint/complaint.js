@@ -5,7 +5,7 @@ import './complaint.css'
 const Complaint = () => (
     <React.Fragment>
         <section className='complaint__firstForm'>
-            <div className="container__form">
+            <div className="container__form" id="complaintForm1">
                 <Form title='O que você gostaria de expor ou denunciar sobre sua empresa?' 
                         text='Para que possamos criar um Mapa de Insegurança, precisamos saber sobre a empresa onde isso aconteceu. Todas as informações são anônimas e estão seguras com a RevElla'>
                     <Form.Label 
@@ -68,7 +68,7 @@ const Complaint = () => (
 
     
     <section className='complaint__secondForm'>
-        <div className="container__form">
+        <div className="container__form" id="complaintForm2">
             <Form title='Compartilhe com detalhes essa situação' 
                 text='Todas as informações aqui compartilhadas são anônimas e estão seguras com a RevElla. 
                 Leia com atenção!'>
@@ -188,7 +188,7 @@ const Complaint = () => (
     </section>
 
     <section className='complaint__submitForm'>
-        <div className="container__form">
+        <div className="container__form" id="complaintSubmit">
             <Form title='Por favor, cadastre um e-mail válido para que possamos manter contato' 
                 text='Seu e-mail permanecerá anônimo e será criptografado para garantir a segurança do seu testemunho.'>
                 

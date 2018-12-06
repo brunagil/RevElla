@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Complaint from './Pages/Complaint'
+import RevEllaForm from './Pages/RevEllaForm/RevEllaForm'
 import Home from './Pages/Home'
 import Footer from './Components/footer'
 import { withRouter } from 'react-router'
@@ -12,7 +13,7 @@ class App extends Component {
       <React.Fragment> 
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route path='/form' component= {Complaint}/> 
+          <Route path='/form' component= {RevEllaForm}/> 
           <Footer />
         </Switch>
       </React.Fragment>
