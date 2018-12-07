@@ -5,14 +5,15 @@
     width: 100%;
     padding: 0.8rem;
     margin: 0 0 1rem;
-    border: 1px solid black;
+    border: 1px solid #CECECE;
     border-radius: 5px;
 }
 
 .input:focus {
     outline: none;
     border-color: #00A2BA;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #00A2BA;
+
 }
 
 .input__erro {

@@ -1,0 +1,23 @@
+.carousel.carousel-slider {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel .slide .legend {
+    transition: all .5s ease-in-out;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 20px;
+    background: #ffff;
+    color: #00606E;
+    padding: 60px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.80;
+    transition: opacity .35s ease-in-out;
+}

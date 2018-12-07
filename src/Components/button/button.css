@@ -6,27 +6,44 @@
     padding: 0.8rem;
     margin-bottom: 1rem;
     border-radius: 5px;
-    border-color: #96858F
+    opacity: 1;
+    transition: 0.5s;
+    border: 1px solid white;
 
+}
+
+.btn:hover {
+    opacity: (0.5);
 }
 
 .btn__home_cta, .btn__form_back {
+    border: 1px solid white;
     background: #00606E;
-    border: 1px solid #00606E;
-    border-color: #00606E;
     margin: 3rem auto;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.btn__home_cta:hover, .btn__form_back:hover {
+    opacity: (0.5);
 }
 
 .btn__form_next  {
-    border: 1px solid #96858F;
+    border: 1px solid white;
     background-color: #96858F;
     margin-bottom: 0rem;
+    opacity: 1;
+    transition: 0.5s;
 }
 
+.btn__form_next:hover  {
+    opacity: (0.5);
+}
 
 .btn__form_submit {
     border: 1px solid white;
-    background-color: #80A368;
+    background-color: #00CCAD;
     margin-bottom: 0rem;
 
 }

@@ -2,14 +2,15 @@
     font-family: 'Lato';
     font-size: 15px;    
     border-radius: 5px;
-    border-color: black;
     padding: 5px 10px;
     padding: 0.8rem;
     margin: 0 0 1rem;
+    max-width: 26rem;
+    border: 1px solid #CECECE;
 }
 
 .select:focus {
     outline: none;
     border-color: #00A2BA;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #00A2BA;
 }

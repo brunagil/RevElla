@@ -23,9 +23,9 @@ const Home = () => (
                 </div>
             </div>
                 <div className = "header__button">
-                <a href='/form'
-                    className = "btn btn__home_cta"> Faça uma denúncia 
-                </a>
+                    <a href='/form'
+                        className = "btn btn__home_cta"> Faça uma denúncia 
+                    </a>
                 </div>
         </header>
 
@@ -91,10 +91,17 @@ const Home = () => (
         </section>
     
     <section className = "carousel-testemonies">
-        <div className = "section-box__title" id="testemonies">
+        <div className = "section-box__title" id="depo">
             <h2 className = "depo__title">Vozes que não se calaram</h2>
+            <h4 className="data__text__depo">A RevElla se propõe a ser um espaço seguro onde as mulheres possam relatar suas experiências e expor a realidade da empresa onde trabalham.</h4>
         </div>
+
     <DemoCarousel/>
+            <div className = "header__button">
+                <a href='/form'
+                    className = "btn btn__home_cta"> Faça parte desse movimento 
+                </a>
+            </div>
     </section>
     <Footer />
 </React.Fragment>

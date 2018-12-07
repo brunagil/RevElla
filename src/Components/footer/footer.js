@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from '../container'
 import './footer.css'
 import logo_twitter from '../../Images/twitter.png'
 import logo_facebook from '../../Images/facebook.png'
@@ -7,8 +6,6 @@ import logo_facebook from '../../Images/facebook.png'
 const Footer = () => (
         <footer className="footer" id="contato">
             <div>
-                <a href="email">
-                    Contato: suahistoria@revella.com</a>
                 <ul className="footer__socialmedia">
                 <li>
                 <a href="https://twitter.com" 
@@ -29,6 +26,7 @@ const Footer = () => (
             </li>
             </ul>
         </div>
+
             <div className = "footer__copyright">
             <p>Copyright © Bruna Gil 2018</p>
             </div>

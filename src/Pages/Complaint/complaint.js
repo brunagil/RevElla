@@ -64,9 +64,9 @@ class Complaint extends Component {
             <React.Fragment>
             <section ref={this.form1} className='complaint__firstForm'>
                     <div className="container__form" id="firstForm">
-                        <Form noValidate onSubmit={(e) => this.handleSubmit(e, 'form1')} 
+                        <Form noValidate onSubmit={(e) => this.handleSubmit(e, 'form1')}
                                 title='O que você gostaria de expor ou denunciar sobre sua empresa?' 
-                                text='Para que possamos criar um Mapa de Insegurança, precisamos saber sobre a empresa onde isso aconteceu. Todas as informações são anônimas e estão seguras com a RevElla'>
+                                text='Para que possamos criar um relatório sobre essas empresas, precisamos saber sobre ela. Todas as informações são anônimas e estão seguras com a RevElla'>
                             <Form.Label 
                                 htmlFor='companyName'>Nome da Empresa
                                 </Form.Label>
@@ -135,8 +135,7 @@ class Complaint extends Component {
                 <div className="container__form" id="form2">
                     <Form noValidate onSubmit={(e) => this.handleSubmit(e, 'form2')} 
                         title='Compartilhe com detalhes essa situação' 
-                        text='Todas as informações aqui compartilhadas são anônimas e estão seguras com a RevElla. 
-                        Leia com atenção!'>
+                        text='Todas as informações aqui compartilhadas são anônimas e estão seguras com a RevElla.'>
         
                     <Form.Label 
                         htmlFor='select'>Escolha a experiência que você infelizmente viveu/vive?
@@ -145,11 +144,11 @@ class Complaint extends Component {
                         required
                         className='select'
                         listOfOptions={[
-                            {'id': 1, 'text': 'Assédio sexual: chantagem e exigência de favores sexuais explícitos, em troca de benefícios ou não prejuízo no meu trabalho'},
-                            {'id': 2, 'text': 'Assédio sexual: provocações inapropriadas e insistentes, com intimidação e/ou humilhação em grupo ou sem ninguém por perto'},
-                            {'id': 3, 'text': 'Assédio sexual: toques, abraços, beijos e invasão do meu espaço pessoal sem a minha permissão'},
-                            {'id': 4, 'text': 'Conduta abusiva e repetitiva de um chefe ou superior, que fere minha integridade física e psicológica'},
-                            {'id': 5, 'text': 'Conduta abusiva e repetitiva de um colega de trabalho, que fere minha integridade física e psicológica'},
+                            {'id': 1, 'text': 'Chantagem e exigência de favores sexuais explícitos, em troca de benefícios ou não prejuízo no meu trabalho'},
+                            {'id': 2, 'text': 'Provocações inapropriadas e insistentes, com intimidação e/ou humilhação em grupo ou sem ninguém por perto'},
+                            {'id': 3, 'text': 'Toques, abraços, beijos e invasão do meu espaço pessoal sem a minha permissão'},
+                            {'id': 4, 'text': 'Conduta abusiva e repetitiva de um chefe ou superior, que fere minha integridade física/psicológica'},
+                            {'id': 5, 'text': 'Conduta abusiva e repetitiva de um colega de trabalho, que fere minha integridade física/psicológica'},
                             {'id': 6, 'text': 'Comentários e atitudes machistas, com ações que questionam meu trabalho por ser mulher'},
                             {'id': 7, 'text': 'Bullying, piadas e comentários desagradáveis sobre quem sou ou sobre um grupo social e/ou minoritário ao qual pertenço'},
                         ]}>
@@ -163,8 +162,8 @@ class Complaint extends Component {
                         className='select'
                         listOfOptions={[
                             {'id': 1, 'text': 'Eu'},
-                            {'id': 2, 'text': 'Outra mulher (Estou expondo essa situação pois ela não quer se manifestar)'},
-                            {'id': 2, 'text': 'Outra mulher (Ela não sabe que eu presenciei essa situação)'}, 
+                            {'id': 2, 'text': 'Outra mulher'},
+
                         ]}>
                     </Form.Select>
                     <Form.Label 
@@ -208,10 +207,10 @@ class Complaint extends Component {
                         required
                         className='select'
                         listOfOptions={[
-                            {'id': 1, 'text': 'Sim, e após expor a situação à esse canal/área/departamento, sinto que melhorou'},
-                            {'id': 1, 'text': 'Sim, mas após expor a situação à esse canal/área/departamento, sinto que piorou'},
-                            {'id': 1, 'text': 'Sim, mas após expor a situação à esse canal/área/departamento, nada mudou'},
-                            {'id': 1, 'text': 'Sim, mas após expor a situação à esse canal/área/departamento, não recebi uma resposta'},
+                            {'id': 1, 'text': 'Sim, e após expor a situação, sinto que melhorou'},
+                            {'id': 1, 'text': 'Sim, mas após expor a situação, sinto que piorou'},
+                            {'id': 1, 'text': 'Sim, mas após expor a situação, nada mudou'},
+                            {'id': 1, 'text': 'Sim, mas após expor a situação, não recebi uma resposta'},
                             {'id': 1, 'text': 'Sim, mas não me senti segura para expor essa situação'},
                             {'id': 2, 'text': 'Não'},
          

@@ -6,8 +6,21 @@
 
 .menu__list-item {
     text-transform: uppercase;
-    color: #96858F;
+    color: #00606E;
     padding: 1rem 1rem;
     margin: 0 auto;
+    transition: 1s;
+}
+
+.item-form {
+    text-decoration: underline;
+    color: #A37A92;
+}
+
+.menu__list-item:hover {
+    background: url('../../../Images/hover-paint6.png');
+    background-repeat: no-repeat;
+    filter: saturate(0.9);
+
 }
 

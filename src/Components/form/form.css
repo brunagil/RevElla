@@ -1,14 +1,19 @@
 .form {
-    font-family: 'Lato';
     margin-bottom: 500px;
 }
-.form-part1__title {
+.form__title {
     margin: 2rem;
     text-align: center;
-    color: #80A368;
+    color: #00A2BA;
 }
-.form-part1__text{
+.form__text{
     font-size: 16px;
     margin: 2rem;
     text-align: center;
+}
+
+
+.complaint__firstForm, .complaint__secondForm, .complaint__submitForm {
+    background-image: url('../../Images/background-pattern2.jpg');
+    min-height: 90vh;
 }

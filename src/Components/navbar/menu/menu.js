@@ -8,7 +8,7 @@ const Menu = () => (
         <ul className = "menu__list">
           <li>
             <Link smooth to="#howItWorks"
-                className = "menu__list-item" >Como funciona</Link>
+                className = "menu__list-item" >Sobre</Link>
           </li>
           <li>
             <Link smooth to="#dataAbout"
@@ -16,11 +16,11 @@ const Menu = () => (
           </li>
           <li>
             <Link smooth to="#testemonies"
-                className = "menu__list-item" >Testemunhas</Link>
+                className = "menu__list-item" >Vozes</Link>
           </li>
           <li>
             <Link smooth to='/form'
-                className = "menu__list-item" >Denuncie</Link>
+                className = "menu__list-item item-form" >Denuncie</Link>
           </li>
         </ul>
       </navbar>
