@@ -4,7 +4,7 @@
 }
 
 .complaint__firstForm, .complaint__secondForm, .complaint__submitForm {
-    background-image: url('../../Images/background-pattern2.jpg');
+    background-image: url('../../Images/background-pattern.jpg');
     min-height: 90vh;
     background-repeat: repeat;
 }
