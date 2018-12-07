@@ -1,5 +1,7 @@
+/* HEADER / BANNER */
+
 .header__banner {
-  background: url("../../Images/banner-6.jpg");
+  background: url("../../Images/banner-1-1.png");
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
   min-height: 90vh;
   height: 660px;
@@ -11,11 +13,12 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .header__banner:hover {
-  background: url("../../Images/banner-6.jpg");
+  background: url("../../Images/banner-1-hover4.png");
+  filter: grayscale(0.7);
   min-height: 90vh;
   height: 660px;
   background-size: cover;
@@ -28,15 +31,29 @@
   position: relative;
 }
 
+.header__banner-text {
+  padding: 140px;
+}
+
 .header__banner-title {
-  font-family: 'Lato';
-  font-size: 50px;
   color: rgba(255, 255, 255, .9);
+  font-size: 50px;
   margin: 10px 150px;
   text-transform: uppercase;
-  font-weight: 100;
-  }
+  text-align: center;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+.header__banner-title:hover {
+  color: rgba(255, 255, 255, .9);
+  font-size: 50px;
+  margin: 10px 150px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
   
+  /*responsive*/
   @media (max-width: 1024px) {
     .header__banner-title {
       font-size: 45px;
@@ -48,12 +65,17 @@
       font-size: 30px;
     }
   }
-  
+
   .header__banner-subtitle {
-    color: white;
+    color: rgba(255, 255, 255, .9);
     font-size: 25px;
-    line-height: 30px;
-    margin: 10px 150px;
+    margin: 0 150px;
+  }
+  
+  .header__banner-subtitle:hover {
+    font-size: 25px;
+    margin: 0px 150px;
+    color: rgba(255, 255, 255, .9);
   }
   
   @media (max-width: 850px) {
@@ -66,24 +88,74 @@
   display: flex;
 }
 
+/*SECTION 'COMO FUNCIONA?' */
 
-.section__title {
+/* .color__div {
+  background: url('../../Images/background-pattern.jpg');
+  width: 100px;
+  height: 100px;
+} */
+
+.about__box-title, .data-box__title, .depo__title {
   text-align: center;
+  margin: 70px;
+  transition: 0.2s;
 }
 
-.about__info {
+.about__box-title:hover, .data-box__title:hover, .depo__title:hover{
+  color: #A37A92;
+}
+
+.about__box-infos1, .about__box-infos2, .about__data-boxes {
   display: flex;
-  background-color: gray;
+  align-items: center;
+  width: 160vh;
+  margin: 0 auto;
+}
+
+.info__step-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.info__step-1 {
+  padding: 70px;
+
 }
 
 .about__data-boxes {
-  background-color: silver;
+  background-color: 
 }
 
+.info__img-print {
+  width: 20rem;
+  margin:0 100px;
+
+}
 
 .about__data-boxes {
   display: flex;
   align-content: center;
-  margin-bottom: 1px solid blue;
+  justify-content: center;
   
+}
+
+.data__title__highlight {
+  text-align: center;
+  font-size: 50px;
+  transition: 0.6s;
+
+}
+
+.data__title__highlight:hover {
+  opacity: 0.6;
+  color: #00606E;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.data__text__imp {
+  text-align: center;
+  padding: 50px;
 }
