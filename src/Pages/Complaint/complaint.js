@@ -47,18 +47,16 @@ class Complaint extends Component {
             };
         }
     }
-
     handleFinish = (e) => {
         e.preventDefault()
         const formFinalValid = e.target.checkValidity();
 
         if(this.state.form1.valid && this.state.form2.valid && formFinalValid) {
-            alert ('Obrigada por compartilhar essa experiência com a gente!')
+            alert ('Obrigada por compartilhar essa experiência com a gente! Essas informações serão úteis para construir relatórios e ações para modificar a realidade dessas empresas')
             this.props.history.push('/')
         
     }
 }
-
     render() {
         return (
             <React.Fragment>

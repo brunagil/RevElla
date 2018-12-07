@@ -11,9 +11,3 @@
     margin: 2rem;
     text-align: center;
 }
-
-
-.complaint__firstForm, .complaint__secondForm, .complaint__submitForm {
-    background-image: url('../../Images/background-pattern2.jpg');
-    min-height: 90vh;
-}

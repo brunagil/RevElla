@@ -1,5 +1,10 @@
 .container__form {
     margin: 0 auto;
     width: 55%;
+}
 
+.complaint__firstForm, .complaint__secondForm, .complaint__submitForm {
+    background-image: url('../../Images/background-pattern2.jpg');
+    min-height: 90vh;
+    background-repeat: repeat;
 }
